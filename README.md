@@ -18,5 +18,5 @@ The codes in the ‘plots_for_...’ files use the output obtained as a result o
 
 In addition, in the ‘Supplementary_material’ file, the order of the isomers used in the codes and the values of the Tanimoto coefficients produced as a result of the codes are presented in an organised manner.
 
-#Requirements
+# Requirements
 The packages required to run the scripts are specified in the ‘requirements.txt’ file.
