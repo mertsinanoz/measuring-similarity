@@ -1,6 +1,9 @@
 # measuring_similarity
 Data for paper on a novel method for measuring similarity or distance for arbitrary graphs
 
+# Requirements
+The packages required to run the scripts are specified in the ‘requirements.txt’ file.
+
 # Usage and Explanations
 In the ‘data_acquisition_...’ files, Tanimoto coefficients based on five different fingerprints and the adjacency matrix of all isomer pairs are calculated separately for undecane, dodecane and tridecane isomers.
 
@@ -17,6 +20,3 @@ Each of these codes provides the values of the Tanimoto coefficients calculated 
 The codes in the ‘plots_for_...’ files use the output obtained as a result of the codes in the ‘data_acquisition_...’ files for the undecane, dodecane and tridecane isomers to plot the value distribution plots of the Tanimoto coefficients, the cumulative distribution plots of the Tanimoto coefficients and the relationships between the Tanimoto coefficients based on molecular fingerprints and adjacency matrices.
 
 In addition, in the ‘Supplementary_material’ file, the order of the isomers used in the codes and the values of the Tanimoto coefficients produced as a result of the codes are presented in an organised manner.
-
-# Requirements
-The packages required to run the scripts are specified in the ‘requirements.txt’ file.
