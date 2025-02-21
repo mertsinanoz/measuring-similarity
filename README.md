@@ -1,4 +1,4 @@
-# measuring_similarity
+# measuring_similarity_or_distance_method
 Data for paper on a novel method for measuring similarity or distance for arbitrary graphs
 
 # Requirements
