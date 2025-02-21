@@ -1,6 +1,7 @@
 # measuring_similarity
 Data for paper on a novel method for measuring similarity or distance for arbitrary graphs
 
+# Usage and Explanations
 In the ‘data_acquisition_...’ files, Tanimoto coefficients based on five different fingerprints and the adjacency matrix of all isomer pairs are calculated separately for undecane, dodecane and tridecane isomers.
 
 In the ‘data_acquisition_undecanes’, the code for undecanes uses the files ‘isomer11.pkl’ and ‘isomers_of_undecanes.xlsx’ as input.
