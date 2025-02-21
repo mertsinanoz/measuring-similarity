@@ -1,0 +1,3 @@
+pip install cirpy
+pip install pandas
+pip install rdkit-pypi
