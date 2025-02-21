@@ -15,7 +15,7 @@ In the ‘data_acquisition_tridecanes’, the code for tridecanes uses the files
 
 In order for the inputs of the codes mentioned above to be used in the code, the file path must be written as required on line 19 in the codes.
 
-Each of these codes provides the values of the Tanimoto coefficients calculated based on each fingerprint and adjacency matrix as output in the form of xlsx and pkl files, 6 files each. The xlsx files have been used for plotting the graphics mentioned below. If desired, pkl files can also be used.
+Each of these codes provides the values of the Tanimoto coefficients calculated based on each fingerprint and adjacency matrix as output in the form of xlsx and pkl files, 6 files each. These outputs obtained as a result of running the codes are also uploaded to the repository. The xlsx files have been used for plotting the graphics mentioned below. If desired, pkl files can also be used.
 
 The codes in the ‘plots_for_...’ files use the output obtained as a result of the codes in the ‘data_acquisition_...’ files for the undecane, dodecane and tridecane isomers to plot the value distribution plots of the Tanimoto coefficients, the cumulative distribution plots of the Tanimoto coefficients and the relationships between the Tanimoto coefficients based on molecular fingerprints and adjacency matrices.
 
