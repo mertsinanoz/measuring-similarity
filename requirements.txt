@@ -1,3 +1,5 @@
 cirpy
 pandas
 rdkit-pypi
+networkx
+pysmiles
