@@ -5,7 +5,7 @@ Data for paper on a novel method for measuring similarity or distance for arbitr
 The packages required to run the scripts are specified in the ‘requirements.txt’ file.
 
 # Usage and Explanations
-The files ‘data_acquisition_undecanes’, ‘data_acquisition_dodecanes’ and ‘data_acquisition_tridecanes’ contain codes to calculate the Jaccard/Tanimoto indices based on five different fingerprints and Tanimoto coefficients based on the newly defined topological index vector of all isomer pairs separately for undecane, dodecane and tridecane isomers, respectively.
+The files ‘data_acquisition_undecanes’, ‘data_acquisition_dodecanes’ and ‘data_acquisition_tridecanes’ contain codes to calculate the Jaccard/Tanimoto indices based on five different fingerprints and the Jaccard/Tanimoto indices based on the newly defined topological index vector of all isomer pairs separately for undecane, dodecane and tridecane isomers, respectively.
 
 In the ‘data_acquisition_undecanes’, the code for undecanes uses the files ‘isomer11.pkl’ and ‘isomers_of_undecanes.xlsx’ as input.
 
