@@ -5,18 +5,23 @@ Data for paper on a novel method for measuring similarity or distance for arbitr
 The packages required to run the scripts are specified in the ‘requirements.txt’ file.
 
 # Usage and Explanations
-The files ‘data_acquisition_undecanes’, ‘data_acquisition_dodecanes’ and ‘data_acquisition_tridecanes’ contain codes to calculate the Jaccard/Tanimoto indices based on five different fingerprints and the Jaccard/Tanimoto indices based on the newly defined topological index vector of all isomer pairs separately for undecane, dodecane and tridecane isomers, respectively.
+The files ‘data_acquisition_undecanes’, ‘data_acquisition_dodecanes’, ‘data_acquisition_tridecanes’, ‘data_acquisition_cyclodecanes’ and ‘data_acquisition_cycloundecanes’ contain codes to calculate the Jaccard/Tanimoto indices based on five different fingerprints and the Jaccard/Tanimoto indices based on the newly defined topological index vector of all isomer pairs separately for undecane, dodecane, tridecane, cyclodecane and cycloundecane isomers, respectively. 
 
-In the ‘data_acquisition_undecanes’, the code for undecanes uses the files ‘isomer11.pkl’ and ‘isomers_of_undecanes.xlsx’ as input.
+Furthermore, ‘data_acquisition_connected_graphs_with_7_vertices’ contains code to calculate Jaccard/Tanimoto indices of all connected graphs with 7 vertices based on the newly defined topological index vector.
 
-In the ‘data_acquisition_dodecanes’, the code for dodecanes uses the files ‘isomer12.pkl’ and ‘isomers_of_dodecanes.xlsx’ as input.
+Among these codes, the code for cycoundecanes uses the files ‘connected_graphs_7_vertices.g6’ as input.
+Among these codes, the code for undecanes uses the files ‘isomer11.pkl’ and ‘isomers_of_undecanes.xlsx’ as input.
+Among these codes, the code for dodecanes uses the files ‘isomer12.pkl’ and ‘isomers_of_dodecanes.xlsx’ as input.
+Among these codes, the code for tridecanes uses the files ‘isomer13.pkl’ and ‘isomers_of_tridecanes.xlsx’ as input.
+Among these codes, the code for cyclodecanes uses the file ‘ten_vertices.g6’ as input.
+Among these codes, the code for cycoundecanes uses the files ‘eleven_vertices.g6’ as input.
 
-In the ‘data_acquisition_tridecanes’, the code for tridecanes uses the files ‘isomer13.pkl’ and ‘isomers_of_tridecanes.xlsx’ as input.
+In order for the inputs of the codes mentioned above to be used in the code, the file path must be written as required in the codes.
 
-In order for the inputs of the codes mentioned above to be used in the code, the file path must be written as required on line 21 in the codes.
+Each of these codes provides the values of the Jaccard/Tanimoto coefficients calculated based on each fingerprint and topological index vector as output in the form of xlsx and pkl files, 6 files each. The xlsx files have been used for plotting the graphics mentioned below. If desired, pkl files can also be used.
 
-Each of these codes provides the values of the Jaccard/Tanimoto indices calculated based on each fingerprint and newly defined topological index vector as output in the form of xlsx and pkl files, 6 files each. These outputs obtained as a result of running the codes are also uploaded to the repository. The xlsx files have been used for plotting the graphics mentioned below. If desired, pkl files can also be used.
+These outputs obtained as a result of running the codes were also uploaded to the repository except for cycloundecanes. The data for cycloundecane isomers is obtained by running the code in the file ‘data_acquisition_cycloundecanes’. This data was not uploaded to the repository due to its large size. However, the data obtained when the code is run can be transferred to the ‘plots_for_cycloundecanes’ file and the desired plots can be drawn.
 
-The codes in the ‘plots_for_...’ files use the output obtained as a result of the codes in the ‘data_acquisition_...’ files for the undecane, dodecane and tridecane isomers to plot the value distribution plots of the Jaccard/Tanimoto indices, the cumulative distribution plots of the Jaccard/Tanimoto indices and the relationships between the Jaccard/Tanimoto indices based on molecular fingerprints and newly defined topological index vectors.
+The codes in the ‘plots_for_...’ files use the output obtained as a result of the codes in the ‘data_acquisition_...’ files to plot the value distribution plots of the Jaccard/Tanimoto indices, the cumulative distribution plots of the Jaccard/Tanimoto indices and the relationships between the Jaccard/Tanimoto indices based on molecular fingerprints and newly defined topological index vectors.
 
-In addition, the file 'Supplementary_materials' presents the order of occurrence of the undecane, dodecane and tridecane isomers used in the codes and the values of the Jaccard/Tanimoto indices generated as a result of the codes.
+In addition, the file 'Supplementary_materials' presents the order of occurrence of the undecane, dodecane and tridecane isomers used in the codes and the values of the Jaccard/Tanimoto indices generated as a result of the codes. It also provides the values of the Jaccard/Tanimoto indices generated by the ‘data_acquisition_...’ codes for all connected graphs with seven vertices, and cyclodecane isomers.
